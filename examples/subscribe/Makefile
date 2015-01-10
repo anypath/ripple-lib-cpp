@@ -4,6 +4,7 @@ WEBSOCKETPP_ROOT = ../../deps/websocketpp
 JSON_SPIRIT_ROOT = ../../deps/json_spirit
 
 CXX_FLAGS = -std=c++0x -Wall
+DWEBSOCKETPP_NOEXCEPT_TOKEN 
 
 ifdef DEBUG
     CXX_FLAGS += -g
